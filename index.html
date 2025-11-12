@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Bitcoin Mining Management</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        
+        .about-section {
+            background: white;
+            border-radius: 12px;
+            padding: 60px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #f7931a;
+            font-size: 2.8em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .tagline {
+            font-size: 1.3em;
+            color: #666;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+        
+        .intro-text {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            color: #444;
+        }
+        
+        .mission-statement {
+            background: linear-gradient(135deg, #f7931a 0%, #ff6b35 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 40px 0;
+            font-size: 1.15em;
+            line-height: 1.8;
+        }
+        
+        h2 {
+            color: #2d2d2d;
+            font-size: 2em;
+            margin: 40px 0 20px 0;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .service-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #f7931a;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(247, 147, 26, 0.2);
+        }
+        
+        .service-card h3 {
+            color: #f7931a;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+        
+        .service-card p {
+            color: #555;
+        }
+        
+        .values-section {
+            margin-top: 40px;
+        }
+        
+        .value-item {
+            margin-bottom: 20px;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .value-item:before {
+            content: "⚡";
+            position: absolute;
+            left: 0;
+            color: #f7931a;
+            font-size: 1.5em;
+        }
+        
+        .value-item strong {
+            color: #2d2d2d;
+            font-size: 1.1em;
+        }
+        
+        .cta-section {
+            background: #2d2d2d;
+            color: white;
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            margin-top: 0;
+        }
+        
+        .cta-section p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .about-section {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="about-section">
+            <h1>About Us</h1>
+            <p class="tagline">Powering the Future of Decentralized Finance, One Block at a Time</p>
+            
+            <p class="intro-text">
+                We are a premier Bitcoin mining management company dedicated to maximizing the performance, profitability, and reliability of mining operations across North America. With deep expertise in infrastructure management, hardware optimization, and strategic operations, we partner with mining operators to transform their facilities into world-class Bitcoin production centers.
+            </p>
+            
+            <div class="mission-statement">
+                <strong>Our Mission:</strong> To empower Bitcoin miners with comprehensive, expert-driven management services that optimize hashrate performance, minimize downtime, and maximize long-term profitability while advancing the security and decentralization of the Bitcoin network.
+            </div>
+            
+            <h2>What We Do</h2>
+            <p class="intro-text">
+                From single-site operations to multi-facility portfolios, we provide end-to-end mining management solutions tailored to your specific needs. Whether you're scaling up, optimizing existing operations, or navigating the complexities of industrial-scale Bitcoin mining, our team brings the technical expertise and operational excellence you need to succeed.
+            </p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Full-Service Site Management</h3>
+                    <p>Complete operational oversight including power management, facility monitoring, security protocols, and 24/7 remote management of your mining sites.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Hashrate Optimization</h3>
+                    <p>Advanced firmware management, overclocking strategies, and performance tuning to maximize your hashrate efficiency and profitability per megawatt.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Miner Maintenance & Repair</h3>
+                    <p>Proactive maintenance programs, rapid repair services, and parts inventory management to minimize downtime and extend hardware lifespan.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Expert Consultation</h3>
+                    <p>Strategic guidance on site selection, power procurement, hardware acquisition, pool strategy, and operational optimization from industry veterans.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Infrastructure Development</h3>
+                    <p>Design, buildout, and commissioning services for new mining facilities, including electrical systems, cooling solutions, and network architecture.</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>Performance Analytics</h3>
+                    <p>Real-time dashboards, profitability analysis, and detailed reporting to give you complete visibility into your operations' performance.</p>
+                </div>
+            </div>
+            
+            <div class="values-section">
+                <h2>Our Values</h2>
+                
+                <div class="value-item">
+                    <strong>Transparency:</strong> We believe in honest communication, clear reporting, and full visibility into every aspect of your mining operations.
+                </div>
+                
+                <div class="value-item">
+                    <strong>Technical Excellence:</strong> Our team stays at the forefront of mining technology, constantly innovating to deliver superior results for our clients.
+                </div>
+                
+                <div class="value-item">
+                    <strong>Reliability:</strong> Uptime is revenue. We implement robust systems and proactive monitoring to ensure your miners stay online and productive.
+                </div>
+                
+                <div class="value-item">
+                    <strong>Partnership:</strong> Your success is our success. We work collaboratively with our clients, aligning our strategies with your long-term goals.
+                </div>
+                
+                <div class="value-item">
+                    <strong>Bitcoin First:</strong> We're committed to the Bitcoin network's security and decentralization, and we bring that ethos to every operation we manage.
+                </div>
+            </div>
+            
+            <div class="cta-section">
+                <h2>Ready to Optimize Your Mining Operations?</h2>
+                <p>Let's discuss how we can help you maximize your hashrate, minimize costs, and build a more profitable mining operation.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
